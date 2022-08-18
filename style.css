@@ -16,24 +16,22 @@ body {
     --White: #fff;
     --DarkWhiteBcg: #fafafa;
 
-    --main: linear-gradient(
-    to left bottom,
-    #7d62f2,
-    #7f65ee,
-    #8168ea,
-    #836ae6,
-    #856de2,
-    #8a6cdc,
-    #8f6bd6,
-    #936ad0,
-    #9a65c7,
-    #9f60be,
-    #a45bb5,
-    #a757ac
-  );
+    --main: linear-gradient(to left bottom,
+            #7d62f2,
+            #7f65ee,
+            #8168ea,
+            #836ae6,
+            #856de2,
+            #8a6cdc,
+            #8f6bd6,
+            #936ad0,
+            #9a65c7,
+            #9f60be,
+            #a45bb5,
+            #a757ac);
 
-    --secondary: linear-gradient(to right bottom,#fd4d3e,#fe315c,#f61a7a,
-    #e51b97,#c830b3);
+    --secondary: linear-gradient(to right bottom, #fd4d3e, #fe315c, #f61a7a,
+            #e51b97, #c830b3);
 
     --textColor: #4c4486;
     --textLightColor: #9e9d9d;
@@ -43,12 +41,12 @@ body {
     --black: #111111;
     --purple: mediumpurple;
 
-    --mainHover: linear-gradient(to left bottom,#9e8fdc,#9c8cdd,#9989dd,#9785de,
-    #9482de,#977fdb,#9a7cd8,#9d79d5,#a576ce,#ab74c7,#b172c0,#b570b9);
+    --mainHover: linear-gradient(to left bottom, #9e8fdc, #9c8cdd, #9989dd, #9785de,
+            #9482de, #977fdb, #9a7cd8, #9d79d5, #a576ce, #ab74c7, #b172c0, #b570b9);
 
-    --secondaryHover: linear-gradient(to right bottom,rgba(252, 52, 34, 0.8235294117647058),
-    rgba(255, 0, 76, 0.796078431372549),rgba(255, 0, 115, 0.7725490196078432),
-    rgba(242, 0, 153, 0.8235294117647058),rgba(213, 23, 188, 0.796078431372549));
+    --secondaryHover: linear-gradient(to right bottom, rgba(252, 52, 34, 0.8235294117647058),
+            rgba(255, 0, 76, 0.796078431372549), rgba(255, 0, 115, 0.7725490196078432),
+            rgba(242, 0, 153, 0.8235294117647058), rgba(213, 23, 188, 0.796078431372549));
 
     --textColorHover: #26224b;
 
@@ -358,7 +356,7 @@ header.active {
     }
 
     .landingHero-image {
-        order: 2; 
+        order: 2;
         width: 45%;
     }
 
@@ -424,7 +422,7 @@ header.active {
         font-size: 1.2rem;
         padding: .5rem;
     }
-    
+
     .contact-info i {
         font-size: 1.5rem;
     }
@@ -466,9 +464,10 @@ header.active {
 }
 
 @keyframes shadowTitle {
-    from{
+    from {
         box-shadow: none;
     }
+
     to {
         box-shadow: var(--redShadow);
     }
@@ -508,6 +507,7 @@ header.active {
 .project-title {
     display: flex;
     justify-content: space-between;
+    margin: .5rem 0;
 }
 
 .project-title h1 {
@@ -540,6 +540,7 @@ header.active {
 .technologies-title {
     font-size: 1.1rem;
     position: relative;
+    margin-top: .5rem;
 }
 
 .technologies-title::after {
@@ -554,11 +555,12 @@ header.active {
 }
 
 .technologies-icons {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     display: flex;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
+    gap: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -656,7 +658,7 @@ header.active {
     }
 
     .about-content img {
-            width: 40%;
+        width: 40%;
     }
 }
 
@@ -685,6 +687,7 @@ header.active {
     width: 6rem;
     height: 6rem;
 }
+
 .technologies-item p {
     font-size: 1.1rem;
     text-align: center;
