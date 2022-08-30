@@ -534,6 +534,9 @@ header.active {
 .project p {
     font-size: 1.2rem;
     text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 30px;
     margin: 0.5rem 0;
 }
 
@@ -612,8 +615,11 @@ header.active {
 }
 
 .about-content p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 40px;
     margin: 0.5rem 0;
     padding: 2rem;
 }
